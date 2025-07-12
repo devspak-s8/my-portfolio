@@ -244,8 +244,8 @@ export default function Portfolio() {
           </div>
           <div className="flex justify-center mb-12 animate-fade-in animation-delay-700">
             <a
-              href="/sulayman-resume.pdf" // Replace with the actual path to Sulayman's resume PDF
-              download="Sulayman_Resume.pdf"
+              href="/Sulayman_Resume.docx" // Replace with the actual path to Sulayman's resume PDF
+              download="Sulayman_Resume.docx"
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25 flex items-center"
             >
               Download Resume{" "}
@@ -545,12 +545,9 @@ export default function Portfolio() {
                         "Next.js",
                         "TailwindCSS",
                         "Radix UI",
-                        "Zod",
                         "React Hook Form",
                         "Node.js",
                         "Python",
-                        "Prisma",
-                        "Supabase",
                       ].map((tech) => (
                         <span
                           key={tech}
@@ -562,9 +559,14 @@ export default function Portfolio() {
                     </div>
 
                     <div className="flex flex-wrap gap-4">
+                      
+                      <a
+                        href="https://www.s8globals.org/"
+                        >
                       <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors duration-200 flex items-center">
                         View Live <ExternalLink size={16} className="ml-2" />
                       </button>
+                      </a>
                       <button className="border border-gray-600 hover:border-blue-400 text-gray-300 hover:text-blue-400 px-6 py-2 rounded-lg transition-colors duration-200 flex items-center">
                         Source Code <Github size={16} className="ml-2" />
                       </button>
@@ -599,11 +601,11 @@ export default function Portfolio() {
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                       {[
-                        "Next.js",
+                        "React.js",
                         "TailwindCSS",
-                        "Zod",
                         "Shadcn",
-                        "Radix UI",
+                        "Nodejs",
+                        "PostgreSQL",
                       ].map((tech) => (
                         <span
                           key={tech}
@@ -621,7 +623,7 @@ export default function Portfolio() {
                         </div>
                       </div>
                       <a
-                        href="#"
+                        href="https://www.s8academy.s8globals.org/"
                         className="text-blue-400 hover:text-blue-300 transition-colors text-sm flex items-center"
                       >
                         Preview <ExternalLink size={14} className="ml-1" />
@@ -655,8 +657,12 @@ export default function Portfolio() {
                       {[
                         "React.js",
                         "TailwindCSS",
-                        "Radix UI",
+                        "Shadcn",
                         "Framer Motion",
+                        "Python",
+                        "FastAPI",
+                        "SQLlite",
+
                       ].map((tech) => (
                         <span
                           key={tech}
@@ -674,10 +680,10 @@ export default function Portfolio() {
                         </div>
                       </div>
                       <a
-                        href="#"
+                        href="https://www.s8builder.s8globals.org/"
                         className="text-blue-400 hover:text-blue-300 transition-colors text-sm flex items-center"
                       >
-                        View Project <ExternalLink size={14} className="ml-1" />
+                        Preview <ExternalLink size={14} className="ml-1" />
                       </a>
                     </div>
                   </div>
@@ -761,8 +767,8 @@ export default function Portfolio() {
               label="Email"
               href="mailto:apatirasulayman@gmail.com"
             />
-            <ContactButton icon={<Linkedin />} label="LinkedIn" href="#" />
-            <ContactButton icon={<Github />} label="GitHub" href="#" />
+            <ContactButton icon={<Linkedin />} label="LinkedIn" href="https://www.linkedin.com/in/sulayman-apatira-techpro8/" />
+            <ContactButton icon={<Github />} label="GitHub" href="https://github.com/devspak-s8" />
           </div>
         </div>
       </section>
