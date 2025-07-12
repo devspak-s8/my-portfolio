@@ -600,34 +600,6 @@ function SkillCategory({ title, icon, skills }: { title: string; icon: React.Rea
   )
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function ProjectCard({
-  title,
-  description,
-  tech,
-  link,
-}: { title: string; description: string; tech: string[]; link: string }) {
-  return (
-    <div className="bg-gray-800/50 p-6 rounded-lg animate-on-scroll transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
-      <h3 className="text-xl font-semibold mb-3 text-blue-400">{title}</h3>
-      <p className="text-gray-300 mb-4 text-sm leading-relaxed">{description}</p>
-      <div className="flex flex-wrap gap-2 mb-4">
-        {tech.map((t) => (
-          <span key={t} className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">
-            {t}
-          </span>
-        ))}
-      </div>
-      <a
-        href={link}
-        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-200"
-      >
-        View Project <ExternalLink size={16} className="ml-1" />
-      </a>
-    </div>
-  )
-}
-
 function ContactButton({ icon, label, href }: { icon: React.ReactNode; label: string; href: string }) {
   return (
     <a
