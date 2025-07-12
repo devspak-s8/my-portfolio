@@ -514,13 +514,13 @@ export default function Portfolio() {
                       </h3>
                       <div className="flex space-x-3">
                         <a
-                          href="#"
+                          href="https://github.com/devspak-s8/s8Globals"
                           className="text-gray-400 hover:text-blue-400 transition-colors"
                         >
                           <Github size={20} />
                         </a>
                         <a
-                          href="#"
+                          href="https://www.s8globals.org/"
                           className="text-gray-400 hover:text-blue-400 transition-colors"
                         >
                           <ExternalLink size={20} />
@@ -567,9 +567,13 @@ export default function Portfolio() {
                         View Live <ExternalLink size={16} className="ml-2" />
                       </button>
                       </a>
+                      
+                        <a
+                          href="https://github.com/devspak-s8/s8Globals">
                       <button className="border border-gray-600 hover:border-blue-400 text-gray-300 hover:text-blue-400 px-6 py-2 rounded-lg transition-colors duration-200 flex items-center">
                         Source Code <Github size={16} className="ml-2" />
                       </button>
+                      </a>
                     </div>
                   </div>
                 </div>
