@@ -242,6 +242,16 @@ export default function Portfolio() {
               <Mail size={24} />
             </a>
           </div>
+          <div className="flex justify-center mb-12 animate-fade-in animation-delay-700">
+            <a
+              href="/sulayman-resume.pdf" // Replace with the actual path to Sulayman's resume PDF
+              download="Sulayman_Resume.pdf"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25 flex items-center"
+            >
+              Download Resume{" "}
+              <ChevronDown size={20} className="ml-2 rotate-180" />
+            </a>
+          </div>
           <button
             onClick={() => scrollToSection("about")}
             className="animate-bounce-slow animate-fade-in animation-delay-800"
@@ -277,7 +287,7 @@ export default function Portfolio() {
                 useful platforms.
               </p>
               <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
-                I'm currently teaching myself backend dev and working through a
+                I'm currently taking the course of cs50s intro to python programming to strengthen my backend knowledge and working through a
                 Computer Science degree at the University of the People. I learn
                 fast, build faster, and always push to deliver real value
                 through good design and solid code.
@@ -286,10 +296,10 @@ export default function Portfolio() {
               <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-8">
                 <StatCard
                   icon={<Code />}
-                  number={50}
+                  number={10}
                   label="Projects Completed"
                 />
-                <StatCard icon={<Users />} number={25} label="Happy Clients" />
+                <StatCard icon={<Users />} number={4} label="Happy Clients" />
                 <StatCard
                   icon={<Award />}
                   number={3}
