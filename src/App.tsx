@@ -409,8 +409,8 @@ export default function Portfolio() {
           <div className="space-y-12">
             <ExperienceCard
               title="Founder & CEO"
-              company="S9Globals"
-              duration="Jan 2024 – Present"
+              company="S8Globals"
+              duration="Jan 2025 – Present"
               description="Spearheading a tech ecosystem with a suite of digital solutions and learning platforms under the S9Globals brand."
               responsibilities={[
                 "Launched S8Builder — a platform to build, download, and book UI/UX and frontend services.",
